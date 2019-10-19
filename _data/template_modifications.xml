@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template_modifications>
+  <modification type="admin" template="user_edit" modification_key="html_titles_user_edit" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[<xf:textarearow name="profile[signature]" value="{$user.Profile.signature_}" autosize="true"]]></find>
+    <replace><![CDATA[<xf:selectrow name="user[custom_title_type]" value="{$user.custom_title_type}"
+						label="{{ phrase('html_titles.custom_title_type') }}">
+	<xf:option value="user_set">{{ phrase('html_titles.user_set') }}</xf:option>
+	<xf:option value="admin_set">{{ phrase('html_titles.admin_set') }}</xf:option>
+
+	<xf:explain>
+		{{ phrase('html_titles.explain_admin_title') }}
+	</xf:explain>
+</xf:selectrow>
+
+$0]]></replace>
+  </modification>
+</template_modifications>

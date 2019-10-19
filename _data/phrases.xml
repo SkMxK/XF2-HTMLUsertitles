@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+  <phrase title="html_titles.admin_set" version_id="1" version_string="0.0.1"><![CDATA[Admin set (HTML ALLOWED!)]]></phrase>
+  <phrase title="html_titles.custom_title_type" version_id="1" version_string="0.0.1"><![CDATA[Custom title type]]></phrase>
+  <phrase title="html_titles.explain_admin_title" version_id="1" version_string="0.0.1"><![CDATA[This allows administrators to set arbitrary HTML in a custom title for a user. Be very careful. If the usertitle is changed outside of the Admin Panel this value resets to "User set".]]></phrase>
+  <phrase title="html_titles.user_set" version_id="1" version_string="0.0.1"><![CDATA[User set (No HTML)]]></phrase>
+</phrases>
